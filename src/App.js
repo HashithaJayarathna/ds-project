@@ -4,8 +4,6 @@ import Signup from './Components/Signup/Signup';
 import Login from './Components/Login/Login';
 import LandingPage from './Components/LandingPage/LandingPage';
 import HomePage from './Components/Home/HomePage';
-//import CAdvisor from './Components/CAdvisor/cAdvisor';
-//import ResponseTimes from './Components/ResponseTimes/ResponseTimes';
 
 
 function App() {
