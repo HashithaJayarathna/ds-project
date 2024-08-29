@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"; // Ensure you have react-router-dom installed
-import Image from "../Assets/Image.png";
+import Image from "../Assets/Image.jpg";
 
 const HomePage = () => {
   return (
@@ -15,8 +15,9 @@ const HomePage = () => {
       />
       <p className="text-gray-700 text-center mb-6">
         This application helps in detecting anomalies in microservices
-        architectures using advanced machine learning algorithms. Explore the
-        features and see how it can benefit your systems.
+        architectures using advanced machine learning algorithms. Get into the
+        testing form page, apply your current data, and find out whether it's an
+        anomaly or not.
       </p>
       <Link to="/Form">
         <button className="bg-purple-600 text-white py-2 px-4 rounded hover:bg-purple-700">

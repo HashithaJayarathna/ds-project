@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "../Assets/Image.jpg";
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -32,7 +33,10 @@ const Form = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen p-4">
+    <div
+      className="flex items-center justify-center min-h-screen p-4"
+      // style={{ backgroundImage: `url(${Image})` }}
+    >
       <form
         onSubmit={handleSubmit}
         className="bg-white p-8 rounded shadow-md space-y-4 w-full max-w-md"
